@@ -9,6 +9,9 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ![Image](https://github.com/gmiejski/confluent-documentation-quality/blob/master/images/latest.png)
 
+<img src="https://github.com/gmiejski/confluent-documentation-quality/blob/master/images/latest.png" />
+
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
