@@ -11,6 +11,9 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 <img src="https://github.com/gmiejski/confluent-documentation-quality/blob/master/images/latest.png" />
 
+## second image:
+
+![Image](https://github.com/gmiejski/confluent-documentation-quality/blob/master/images/test_image.png)
 
 ### Markdown
 
