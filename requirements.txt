@@ -1,0 +1,5 @@
+requests
+BeautifulSoup4
+plotly
+requests_html
+psutil

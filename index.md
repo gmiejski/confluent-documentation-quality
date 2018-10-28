@@ -7,7 +7,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ### Images:
 
-![Image ](https://github.com/gmiejski/confluent-documentation-quality/blob/master/images/test_image.png)
+![Image](https://github.com/gmiejski/confluent-documentation-quality/blob/master/images/latest.png)
 
 ### Markdown
 
