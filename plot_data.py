@@ -14,7 +14,6 @@ def read_data(filename: str) -> List[Tuple[str, int, int]]:
         reader = csv.reader(csvfile, delimiter=',')
         next(reader, None)  # skip header
         for row in reader:
-            # print(', '.join(row))
             result.append((row[0], int(row[1]), int(row[2])))
     return result
 
@@ -87,7 +86,7 @@ def read_all_data() -> List[Tuple[str, List[Tuple[str, int, int]]]]:
     all_data = []
     data_file_names = get_all_filenames()
     for filename in data_file_names:
-        print(filename)
+        print("Raeding file: {}".format(filename))
         data = read_data(filename)
         all_data.append((filename.split()[0], data))
 
