@@ -5,3 +5,6 @@ publish:
 	git add -A
 	git commit -m "$(shell date) | daily data gathered"
 	git push
+
+verify:
+	source confluent-documentation-quality/bin/activate && python verify_data.py

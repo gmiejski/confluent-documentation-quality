@@ -50,14 +50,18 @@ def produce_plot(all_data: List[Tuple[str, List[Tuple[str, int, int]]]]):
     y_bad = sum_bad(all_data)
     fig.add_scatter(x=x,
                     y=y_good,
-                    mode='lines',
+                    text=y_good,
+                    textposition='top center',
+                    mode='lines+markers+text',
                     name="Good ratings sum",
                     line=dict(color='#29db23'),
                     )
 
     fig.add_scatter(x=x,
                     y=y_bad,
-                    mode='lines',
+                    text=y_bad,
+                    textposition='top center',
+                    mode='lines+markers+text',
                     name="Bad ratings sum",
                     line=dict(color='#ef2b3e')
                     )
