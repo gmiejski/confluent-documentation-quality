@@ -28,7 +28,7 @@ It's just a single cron running on my computer, that calculates sum of all ratin
 
 Go and see all data gathered in form of CSV if you're interested:
 
-[data gathered](https://github.com/gmiejski/confluent-documentation-quality/tree/master/data
+[data gathered](https://github.com/gmiejski/confluent-documentation-quality/tree/master/data)
 
 ### PS
 
