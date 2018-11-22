@@ -1,42 +1,37 @@
-## Welcome to GitHub Pages
+## Confluent documentation users ratings
 
-You can use the [editor on GitHub](https://github.com/gmiejski/confluent-documentation-quality/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+### What is this anyway?
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Plot below presents simple sum of ratings given by users on [Confluent Documentation site](https://docs.confluent.io/current/).
 
-
-### Images:
+Just presenting community feedback for Confluent docs :smiley:
 
 ![](images/latest.png)
 
-### Markdown
+### Why have you done it?
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Recently I've been using Kafka Streams for my own project together with Kafka Connect. 
+Having good experience with Kafka documentation previously (still thinking it's great) I've jumped into [Confluent documentation](https://docs.confluent.io/current/) to use some more tools.
 
-```markdown
-Syntax highlighted code block
+But to my shock almost every doc page seemed incomplete or just empty. And the ratings at some sites seemed to be incredibly negative!
 
-# Header 1
-## Header 2
-### Header 3
+Some time later I've meet Confluent people at a conference and they said:
 
-- Bulleted
-- List
+**- Go and check out confluent platform, it has a great documentation, so everything will be as easy as it might be!"**
 
-1. Numbered
-2. List
+So I decided to see how good confluent documentation is based on people opinions and draw it as a simple chart :blush:
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+### How it's run
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+It's just a single cron running on my computer, that calculates sum of all rating (positive/negative) on all Confluent Docs sites. Then draw simple diagram but keeps all the data near, so that more detailed diagrams could be created.
 
-### Jekyll Themes
+Go and see all data gathered in form of CSV if you're interested:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gmiejski/confluent-documentation-quality/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+[data gathered](https://github.com/gmiejski/confluent-documentation-quality/tree/master/data
 
-### Support or Contact
+### PS
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+I'm definately now saying `don't use confluent platform!!!!`. Still thinking this is a great tool. I just wanted to express community feedback to Confluent guys. Make poeple love your documentation as they do with the product (just guessing they do, I'm not actually using it commercially :stuck_out_tongue: ) 
+
+ps2 not taking responsability if some pages did not get counted in single calculation - just omitting single page parsing errors.
