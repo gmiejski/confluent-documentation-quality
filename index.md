@@ -1,4 +1,4 @@
-## Confluent documentation users ratings
+## Confluent documentation community ratings
 
 ### What is this anyway?
 
@@ -30,8 +30,8 @@ Go and see all data gathered in form of CSV if you're interested:
 
 [data gathered](https://github.com/gmiejski/confluent-documentation-quality/tree/master/data)
 
-### PS
+### PS.
 
-I'm definately now saying `don't use confluent platform!!!!`. Still thinking this is a great tool. I just wanted to express community feedback to Confluent guys. Make poeple love your documentation as they do with the product (just guessing they do, I'm not actually using it commercially 😝) 
+I'm definately now saying `don't use confluent platform!!!!`. Still thinking this is a great tool. It is coming from curiosity simply 😝.
 
-ps2 not taking responsability if some pages did not get counted in single calculation - just omitting single page parsing errors.
+ps2 not taking responsability if some pages did not get counted in single calculation - just omitting single page parsing errors, because why not 😝
