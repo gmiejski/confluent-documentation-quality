@@ -69,14 +69,13 @@ def unify_links_simple(current_url: str, links: List[str]) -> List[str]:
 
 def get_all_links_ratings(starting_page_url: str, stop_after: int = 0) -> Dict[str, Tuple[int, int]]:
     all_ratings = {}
-    session = HTMLSession()
     links_to_see = [starting_page_url]
     while len(links_to_see) > 0:
         try:
 
             current_url = links_to_see[0]
             print("Scrapping site : {}".format(current_url))
-            links, good_ratings, bad_ratings = get_page_with_rating(session, current_url)
+            links, good_ratings, bad_ratings = get_page_with_rating(HTMLSession(), current_url)
             links = unify_links_simple(current_url, links)
             print("Site: {} -> {}:{}".format(current_url, good_ratings, bad_ratings))
             all_ratings[current_url] = (good_ratings, bad_ratings)
